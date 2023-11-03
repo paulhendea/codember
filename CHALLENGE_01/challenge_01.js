@@ -2,10 +2,12 @@ import fs from 'fs'
 import { fileURLToPath } from 'url'
 
 // Get the message
+// by using fileUrlToPath works in windows too
 const messagePath = fileURLToPath(import.meta.resolve('./message_01.txt'))
 const CODE = fs.readFileSync(messagePath, 'utf-8')
 
 // Decode
+// a Map in JS ensures the entries are in the insertion order
 const WORDS = new Map()
 for (const word of CODE.split(' ')) {
   const key = word.toLowerCase()
@@ -13,9 +15,10 @@ for (const word of CODE.split(' ')) {
   else WORDS.set(key, 1)
 }
 
+
 // Print
-let SOLUTION = ''
-WORDS.forEach((value, key) => {
-  SOLUTION += `${key}${value}`
-})
-console.log(SOLUTION)
+const solution = [...WORDS.entries()]
+  .map(([key, value]) => `${key}${value}`)
+  .join('')
+
+console.log('message:', solution)
