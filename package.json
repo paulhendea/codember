@@ -1,0 +1,12 @@
+{
+  "name": "codember2023",
+  "version": "1.0.0",
+  "description": "Code for codember 2023",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "Paul Hendea",
+  "license": "ISC"
+}
