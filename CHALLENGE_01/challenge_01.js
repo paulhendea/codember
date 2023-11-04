@@ -9,12 +9,11 @@ const CODE = fs.readFileSync(messagePath, 'utf-8')
 // Decode
 // a Map in JS ensures the entries are in the insertion order
 const WORDS = new Map()
-for (const word of CODE.split(' ')) {
+CODE.split(' ').forEach((word) => {
   const key = word.toLowerCase()
   if (WORDS.has(key)) WORDS.set(key, WORDS.get(key) + 1)
   else WORDS.set(key, 1)
-}
-
+})
 
 // Print
 const solution = [...WORDS.entries()]
