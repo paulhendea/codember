@@ -9,7 +9,7 @@ const filesQuarantine = fs.readFileSync(filesQuarantinePath, 'utf-8')
 const KEY_TO_PRINT = 33 - 1
 const NEW_LINE_REGEX = /\r\n|\r|\n/
 
-function getChecksum(name) {
+function getChecksum (name) {
   const LETTERS = new Map()
   name.split('').forEach((letter) => {
     if (LETTERS.has(letter)) LETTERS.set(letter, LETTERS.get(letter) + 1)

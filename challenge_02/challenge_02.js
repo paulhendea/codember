@@ -19,7 +19,7 @@ const PRINT_OPERATOR = '&'
  * @param {string} code - The code to be compiled.
  * @return {string} The compiled result.
  */
-function compile(code) {
+function compile (code) {
   let result = ''
   let number = 0
   code.split('').forEach((operator) => {
