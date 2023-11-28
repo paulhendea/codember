@@ -1,4 +1,4 @@
-** The Spy Encryption Challenge **
+**The Spy Encryption Challenge**
 A group of spies has discovered that their message encryption system is compromised.
 
 They have found some passwords that do not comply with theEncryption Security Policy that was established when they were created.
@@ -18,10 +18,12 @@ Knowing this, in the previous example, there are 2 valid keys:
 
 The second key, zzzsg, is not valid; it contains the letter z 3 times, but needs at least 4. The first and third keys are valid: they contain the appropriate amount of f and h, respectively, according to their policies.
 
-** Your challenge: **
+**Your challenge:**
+
 Determine how many encryption keys are valid according to their policies.
 
-** How to solve it **
+**How to solve it**
+
 1. Analyze the list of policies and encryption keys that you will find in this file: https://codember.dev/data/encryption_policies.txt
 
 2. Create a program that returns the 42nd invalid key (of all the invalid keys, the 42nd in order of appearance). For example:
