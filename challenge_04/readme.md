@@ -8,15 +8,18 @@ Each file has a name with two parts, separated by a hyphen (-). The first part i
 Write a program that determines whether a file is real or fake based on these rules.
 
 Examples:
-
+```
 File Name: xyzz33-xy
 Result: ✅ Real (The checksum is valid)
-
+```
+```
 File Name: abcca1-ab1
 Result: ❌ Fake (The checksum should be b1, it's incorrect)
-
+```
+```
 File Name: abbc11-ca
 Result: ❌ Fake (The checksum should be ac, the order is incorrect)
+```
 Each line indicates the file name and its corresponding checksum, separated by a hyphen (-).
 
 **How to Solve It**
