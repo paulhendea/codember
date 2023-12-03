@@ -14,10 +14,10 @@
 
 |              Challenge               | Solution |
 | :----------------------------------: | :------: |
-| A spy is sending encrypted messages. |   [x]    |
-|       Mini Compiler Challenge        |   [x]    |
-|     The Spy Encryption Challenge     |   [x]    |
-|          File System Hacked          |   [x]    |
-|          The Final Problem           |   [x]    |
+| A spy is sending encrypted messages. |    ✔️    |
+|       Mini Compiler Challenge        |    ✔️    |
+|     The Spy Encryption Challenge     |    ✔️    |
+|          File System Hacked          |    ✔️    |
+|          The Final Problem           |    ✔️    |
 
 </details>
