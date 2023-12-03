@@ -4,11 +4,11 @@
   "description": "Code for codember 2023",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "challenge:1": "node challenge_01/challenge_01.js",
-    "challenge:2": "node challenge_02/challenge_02.js",
-    "challenge:3": "node challenge_03/challenge_03.js",
-    "challenge:4": "node challenge_04/challenge_04.js",
-    "challenge:5": "node challenge_05/challenge_05.js"
+    "2023:challenge:1": "node 2023/challenge_01/challenge_01.js",
+    "2023:challenge:2": "node 2023/challenge_02/challenge_02.js",
+    "2023:challenge:3": "node 2023/challenge_03/challenge_03.js",
+    "2023:challenge:4": "node 2023/challenge_04/challenge_04.js",
+    "2023:challenge:5": "node 2023/challenge_05/challenge_05.js"
   },
   "type": "module",
   "keywords": [],
